@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed';
+    font-size: 13px;
+}
+
+.card{
+    border-radius: 8px;
+}
+
+#left-up-div{
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 115px;
+    background-position: 86% 0%;
+    background-color: hsl(263, 55%, 52%);
+}
+
+#right-up-div{
+    background-color: hsl(217, 19%, 35%);
+}
+
+#left-bottom-div{
+    background-color: white;
+}
+
+#right-bottom-div{
+    background-color: hsl(219, 29%, 14%);
+}
+
+#right-card{
+    padding-right: 1.2rem;
+    background-color: white;
+}
+
+.div-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+img{
+    border-radius: 50px;
+    width: 35px;
+}
+
+.img-1 img{
+    border: solid;
+    border-width: 2px;
+    border-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.img-2 img{
+    border: solid;
+    border-width: 2px;
+    border-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.img-3 img{
+    border: solid;
+    border-width: 2px;
+    border-color: hsl(0, 0%, 100%);
+}
+
+.img-4 img{
+    border: solid;
+    border-width: 2px;
+    border-color: hsl(263, 55%, 52%)
+}
+
+.white-text h3{
+    color: white;
+    font-weight: 500;
+}
+
+.white-text span{
+    color: hsla(0, 0%, 100%, 0.5);
+    font-weight: 500;
+}
+
+.white-text h4{
+    color: white; 
+}
+
+.white-text p{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: .8rem;
+}
+
+.grey-text h3{
+    color: hsl(217, 19%, 35%);
+    font-weight: 500;
+}
+
+.grey-text span{
+    color: hsla(217, 19%, 35%, 0.5);
+    font-weight: 500;
+}
+
+.grey-text h4{
+    color: hsl(217, 19%, 35%);    
+}
+
+.grey-text p{
+    color: hsla(217, 19%, 35%, 0.7); 
+    font-size: .8rem;   
+}
+
+h3{
+    padding-left: 1rem;
+    font-size: .8rem;
+}
+
+.texts{
+    padding: 0 1.2rem 1.5rem 1.5rem;
+}
+
+h4{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+p{
+    line-height: 1.2rem;
+    font-weight: 500;
+}
+
+
+@media(min-width: 700px){
+    .container{
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #left-div{
+        margin-left: .3rem;
+        width: 75%;
+    }
+    
+    #right-div{
+        margin-right: .3rem;
+        width: 25%;
+    }
+
+    .up-bottom-divs{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #left-up-div{
+        margin: 0 1rem 1rem 0;
+    }
+
+    #right-up-div{
+        background-color: hsl(217, 19%, 35%);
+        margin: 0 1rem 1rem 0;
+    }
+
+    #left-bottom-div{
+        margin-right: 1rem;
+    }
+
+    #right-bottom-div{
+        margin-right: 1rem;
+    }
+
+    #right-card{
+        height: 100%;
+    }
+
+    #right-card p{
+        line-height: 1.143rem;
+    }
+
+    .larger-card{
+        width: 69%;
+    }
+
+    .smallest-card{
+        width: 31%;
+    }
+}
+
+@media(max-width: 700px){
+    .container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } 
+
+    #left-div{
+        margin-left: .3rem;
+        width: 70%;
+    }
+    
+    #left-up-div{
+        margin: 1rem 0rem 1rem 0;
+    }
+
+    #left-up-div h4{
+        padding-right: 2rem ;
+    }
+
+    #left-up-div p{
+        padding-right: 3.5rem;
+    }
+
+    #right-up-div{
+        margin-bottom: 1rem;
+    }
+
+    #right-up-div h4{
+        padding-right: 2.9rem ;
+    }
+    
+    #right-up-div p{
+        padding-right: 1rem;
+    }
+
+    #left-bottom-div{
+        margin-bottom: 1rem;
+    }
+
+    #left-bottom-div h4{
+        padding-right: 2rem ;
+    }
+    
+    #left-bottom-div p{
+        padding-right: 2.1rem;
+    }
+
+    #right-bottom-div{
+        margin-bottom: 1rem;
+    }
+
+    #right-bottom-div h4{
+        padding-right: 2.8rem ;
+    }
+    
+    #right-bottom-div p{
+        padding-right: 2.5rem;
+    }
+
+
+    #right-div{
+        width: 70%;
+    }
+
+    #right-card{
+        margin-bottom: 1rem;
+    }
+
+    #right-card p{
+        padding-right: 1.1rem;
+    }
+
+    footer {
+        margin-bottom: 1rem; 
+    }
+}
+
+footer {
+    margin-top: 5px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+footer a{
+    color: hsl(228, 45%, 44%); 
+}
