@@ -80,6 +80,11 @@ img{
     border-color: hsl(263, 55%, 52%)
 }
 
+.white-text h1{
+    color: white;
+    font-weight: 500;
+}
+
 .white-text h3{
     color: white;
     font-weight: 500;
@@ -116,6 +121,16 @@ img{
 .grey-text p{
     color: hsla(217, 19%, 35%, 0.7); 
     font-size: .8rem;   
+}
+
+h1{
+    padding-left: 1rem;
+    font-size: .8rem;
+}
+
+h3{
+    padding-left: 1rem;
+    font-size: .8rem;
 }
 
 h3{
