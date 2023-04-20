@@ -37,8 +37,8 @@ Here are two screenshots of my what my solution looks like for desktop and mobil
 
 ### Links
 
-- Solution URL: [The solution on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [The live solution](https://your-live-site-url.com)
+- Solution URL: [The solution on Frontend Mentor](https://www.frontendmentor.io/solutions/testimonials-grid-section-solution-E1RMReFmdm)
+- Live Site URL: [The live solution](https://itsale-o.github.io/testimonials-grid-section/)
 
 ## My process
 
