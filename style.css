@@ -85,6 +85,11 @@ img{
     font-weight: 500;
 }
 
+.white-text h2{
+    color: white;
+    font-weight: 500;
+}
+
 .white-text h3{
     color: white;
     font-weight: 500;
@@ -128,18 +133,15 @@ h1{
     font-size: .8rem;
 }
 
-h3{
-    padding-left: 1rem;
-    font-size: .8rem;
+h2{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 h3{
     padding-left: 1rem;
     font-size: .8rem;
-}
-
-.texts{
-    padding: 0 1.2rem 1.5rem 1.5rem;
 }
 
 h4{
@@ -153,6 +155,25 @@ p{
     font-weight: 500;
 }
 
+.name-p-grey p{
+    padding-left: 1rem;
+    font-size: .8rem;
+    font-weight: 600;
+    line-height: 1rem; 
+    color: hsl(217, 19%, 35%);   
+}
+
+.name-p-white p{
+    padding-left: 1rem;
+    font-size: .8rem;
+    font-weight: 600;
+    line-height: 1rem; 
+    color: white;   
+}
+
+.texts{
+    padding: 0 1.2rem 1.5rem 1.5rem;
+}
 
 @media(min-width: 700px){
     .container{
@@ -164,12 +185,10 @@ p{
 
     #left-div{
         margin-left: .3rem;
-        width: 75%;
     }
     
     #right-div{
         margin-right: .3rem;
-        width: 25%;
     }
 
     .up-bottom-divs{
@@ -195,19 +214,20 @@ p{
     }
 
     #right-card{
+        width: 250px;
         height: 100%;
     }
 
     #right-card p{
-        line-height: 1.143rem;
+        line-height: 1.13rem;
     }
 
     .larger-card{
-        width: 69%;
+        width: 502px;  
     }
 
     .smallest-card{
-        width: 31%;
+        width: 230px;
     }
 }
 
